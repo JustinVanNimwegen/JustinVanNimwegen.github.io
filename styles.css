@@ -1,0 +1,280 @@
+html, body {
+	margin: 0; 
+	padding: 0;
+	font-family: Georgia;
+    background-color: #f2f3f4;
+	scroll-behavior: smooth;
+}
+/* Header Tabs */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #500000;
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #500000;
+  }
+
+/* Structual Elements */ 
+.content {
+    /*background-color: #faf0e6;*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.panel {
+    margin: auto;
+    margin-top: 20px;
+}
+.rcorners {
+    margin: auto;
+    border-radius: 15px;
+    background: white;
+    padding: 20px; 
+    width: 85%;
+    height: 150px; 
+} 
+
+
+/* Allows Elements to touch the edge of the page 
+html, body {
+	margin: 0; 
+	padding: 0;
+	font-family: Georgia;	
+	scroll-behavior: smooth;}
+
+
+ Structual Elements 
+.homePage {
+	background-color: #FFFFFF;
+	position: relative;
+	width: 100%;
+	color: black;
+}
+
+.darkBox {
+	background-color: #eaeaea; 
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.project {
+	padding-top: 40px;
+	text-align: center;
+}
+
+
+ Text Elements 
+
+	 Site Header 
+		.siteTitle {
+			position: relative; 
+			left: 50%; 
+			top: 50%; 
+			transform: translate(-50%,-50%); 
+			text-align: center; 
+			width: fit-content; 
+			padding: 40px; 
+			font-weight: bold;
+			color: white;
+		}
+
+		.siteTitle h1 {
+			font-size: 6em;
+		}
+
+		.siteTitle p {
+			font-size: 2em;
+		}
+
+		.arrow {
+			position: absolute; 
+			left: 50%;			
+			top: 82.5%; 
+			transform: translateX(-50%); 
+			font-size: 10em;
+			animation: bouncing infinite 1s alternate;
+			transition: .5s ease;
+			height: 150px;
+		}
+
+		.arrow a {
+			opacity: 0.8;
+			text-decoration: none; 
+			color: white;
+		}
+
+		.arrow a:hover {
+			opacity: 1.0;
+		}
+
+		.headerBackground{
+			background: url("images/Zachry Engineering Education Complex.jpg");
+			top: 0; 
+			left: 0; 
+			background-size: cover; 
+			z-index: -1; 
+			position: fixed; 
+			width: 100vw; 
+			height: 100vh;
+			object-fit: cover;
+		}	
+
+		.headerResume {
+			text-decoration: none;
+			color: white;
+			border: solid white 4px;
+			padding: 5px 15px;
+			border-radius: 7.5%;
+		}
+		.headerResume:hover {
+			color: #500000;
+		}
+
+	 Site Body 
+		.heading {
+			color: #500000; 
+			text-align: center; 
+			font-size: 1.75em;
+			padding-top: 20px;
+			margin: 0;
+		}
+
+		.paragraphs {
+			margin: 0;
+			display:inline-block;
+		}
+
+		.profilePicture {
+			vertical-align: top; 
+			display: inline-block; 
+			width: 225px;
+			height: 225px;
+		}
+		
+		.coursework {
+			display:inline-block; 
+			vertical-align:top; 
+			padding:10px; 
+			margin-top:5px; 
+			margin-bottom:25px;"
+		}
+		
+		.coursework ul {
+			list-style-type:none; 
+			text-align:left;"
+		}
+		
+		.projectTitle {
+			display: inline-block;
+			text-align: left;
+			vertical-align: top;
+			width: 205px;
+			padding-bottom: 10px;
+		}
+		
+		.projectTitle h3, p{
+			margin: 2px;
+		}
+
+		.projectDescription {
+			display: inline-block;
+			text-align: left;
+			max-width: 500px;
+			padding-left: 40px;
+		}
+
+		.links {
+			text-decoration: none;
+			color: #500000;
+		}
+
+		.dot {
+			height: 10px;
+			width: 10px;
+			position: relative;
+			top: 6px;
+			float: right;
+			margin-left: 5px;
+			vertical-align: middle;
+			background-color: #500000;
+			border-radius: 25%;
+			display: inline-block;
+		}
+
+		.skill {
+			width: 300px;
+			height: 20px;
+			padding: 5px;
+		}
+
+	 Site Footer 
+		.footerMenu {
+			position: absolute;
+			margin-top: 15px;
+		}
+
+		.footerMenu ul {
+			list-style-type: none;
+		}
+
+		.footerMenu ul li {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.footerMenu ul li a {
+			text-decoration: none;
+			color: black;
+		}
+
+		.footerMenu ul li a:hover {
+			color: #500000;
+			font-weight: bold;
+		}
+	
+		.footerTitle {
+			position: relative; 
+			left: 50%; 
+			top: 50%; 
+			transform: translate(-50%, -65%); 
+			text-align: center; 
+			width: fit-content;
+		}
+		
+		.footerTitle h1 {
+			margin: 5px; 
+			font-size: 250%;
+		}
+		
+		.footerLinks {
+			position: absolute; 
+			width: fit-content; 
+			bottom: 25px; 
+			right: 25px;
+		}
+*/
+
+
+
+
+
