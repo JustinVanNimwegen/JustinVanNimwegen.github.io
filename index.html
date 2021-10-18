@@ -4,37 +4,138 @@
     <title>Justin Van Nimwegen</title>
 	<link rel="stylesheet" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 <body>
-    <ul>
-      <li style="float:left"><a class="active" href="#home">Justin Van Nimwegen</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#About Me">About Me</a></li>
-    </ul>
+<!--<ul class="navigation">
+    <li style="float:left"><a class="active" href="#Home">Justin Van Nimwegen</a></li>
+    <li><a href="#Skills">SKILLS</a></li>
+    <li><a href="#Projects">PROJECTS</a></li>
+    <li><a href="#AboutMe">ABOUT</a></li>
+</ul>-->
 <!--Home Page-->
 <div class="content">
-    <div class="panel"id="Home">
-        <p class="rcorners"> Justin Van Nimwegen</p>
+    <div class="panel paragraphPanel" id="Home">
+        <div style ="text-align: center;">
+            <h1 class="heading" style="padding-top:35px"> JUSTIN VAN NIMWEGEN</h1>
+            <div style="padding:10px">
+                <a href="https://github.com/JustinVanNimwegen" target="_blank" style="padding: 5px; text-decoration: none;">
+                    <img src="images/githubIcon.png" width="50px" height="50px">
+                </a>
+                <a href="https://www.linkedin.com/in/justin-van-nimwegen-50492b1ba" target="_blank" style="padding: 5px; text-decoration: none;"">
+                <img src="images/linkedInIcon.png" width="50px" height="50px"> 
+                </a>
+                <a href="mailto:justin.vannimwegen@gmail.com" target="_blank" style="padding: 5px;">
+                <img src="images/emailIcon.png" width="50px" height="50px">
+                </a>
+            </div>
+            <div style="padding-bottom: 10px">
+            <a href="justin_van_nimwegen_resume.pdf" target="_blank">
+            <p class="rcorners">Resume</p>
+            </a>
+            </div>
+            <!--<img class="profilePiture" src="images/tempProfileIcon.png" style="padding-top: 10px;">-->
+        </div>
     </div>
-    <div class="panel" id="About Me">
-        <p class="rcorners"> About Me</p>
+    <div class="panel paragraphPanel" id="AboutMe">
+        <h1 class="subHeaders"> About Me</h1>
+        <div style="text-align:center">
+            <img class="profilePicture" src="images/profilePicture.png">
+            
+            <p class="paragraphText" style="padding-left: 75px; max-width: 600px;">
+                I am an active computer science honors student at Texas A&M University. 
+                I have a strong interest in data science and cybersecurity but I’m very open to learning about the many fields of computer science. 
+                Currently seeking to expand on these skills through schoolwork and personal projects, 
+                but also in potential internships and in real workplace environments.   <br/> <br/>
+                Outside of programming, I’ve always been interested in video games, computer building, and football. 
+                But recently, I’ve found lots of enjoyment in music, fitness, sand volleyball and bowling.  </p>
+        </div>
     </div>
-    <div class="panel" id="Education">
-        <p class="rcorners"> Education</p>
+    <div class="panel paragraphPanel" id="Education">
+        <h1 class="subHeaders"> Education</h1>
+        <div style="text-align: center;">
+            <div style="display: inline-block; text-align: center; max-width: 400px; margin-right: 10%;">
+                <div>
+                    <img src="images/a&mLogo.png" width="200px", height="175px" style="padding-bottom: 10px;">
+                </div>
+                <div>
+                    <p class="paragraphText">
+                        Texas A&M University || College Station, TX  <br/>
+                        Expected Graduation: May 2024 <br/>
+                        B.S. Computer Science <br/>
+                        Engineering Honors   <br/> 
+                        GPA: 3.75 / 4.0        <br/>
+                    </p>
+                </div>
+            </div>
+            <div class="coursework">
+                <h2 class="subHeaders" style="font-size: 1.5em; margin-bottom: 5px; text-align: left;">Relevant Coursework</h2>
+                <p class="paragraphText">
+                    Data Structures and Algorithms<br/>
+                    Discrite Structures for Computing<br/>
+                    Program Design Concepts<br/>
+                    Linear Algebra<br/>
+                    Multivariable Calculus<br/>
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="panel" id="Projects">
-        <p class="rcorners"> Projects</p>
+    <div class="panel paragraphPanel" id="Projects">
+        <h1 class="subHeaders"> Projects</h1>
+        <div class="activity">
+            <div class="activityTitle">
+                <h3>Portfolio Website</h3>
+                <p>Independent</p>
+                <a href="https://github.com/JustinVanNimwegen/JustinVanNimwegen.github.io" target="_blank" style="padding: 5px; text-decoration: none;">
+                    <img src="images/githubIcon.png" width="40px" height="40px">
+                </a>
+            </div>
+            <div class="activityDescription" style="padding: 0;">
+                <p class="paragraphText" style="max-width: 700px;">
+                    Written individual to explore web development and have a site to demo projects. <br/>
+                    Coded in HTML & CSS and hosted though github pages for accessibility and expandability. <br/>
+                </p>
+            </div>
+        </div>
+        
     </div>
-    <div class="panel" id="Extracurriculars">
-        <p class="rcorners"> Extracurriculars</p>
+    <div class="panel paragraphPanel" id="Extracurriculars">
+        <h1 class="subHeaders"> Extracurriculars</h1>
+        <div class="activity" style="padding-top: 30px;">
+            <div class="activityTitle" >
+                <h3>Aggie Competitive Coding Club</h3>
+                <p>Member</p>
+                <a href="https://tamuacpc.com/home" target="_blank" style="padding: 5px; text-decoration: none;">
+                    <img src="images/acpcLogo.png" width="150px" height="40px">
+                </a>
+            </div>
+            <div class="activityDescription" style="padding: 0;">
+                <p class="paragraphText" style="max-width: 700px;">
+                    Expanding knowledge by learning and implementing algorithms to increase efficiency of programs. <br/>
+                    Participating in weekly meetings with team members to develop coding ideas and skills. <br/>
+                    Preparing for coding competitions through workshops and topic-based meetings.  <br/>
+                    Executed new knowledge in coding challenges from leetcode, codeforces and CSES. <br/> 
+                </p>
+            </div>
+        </div><div class="activity">
+            <div class="activityTitle" >
+                <h3>Cybersecurity Club</h3>
+                <p>Member</p>
+                <a href="https://cybr.club/index.html" target="_blank" style="padding: 5px; text-decoration: none;">
+                    <img src="images/cyberClubLogo.png" width="60px" height="60px">
+                </a>
+            </div>
+            <div class="activityDescription" style="padding: 0;">
+                <p class="paragraphText" style="width: 700px;">
+                    Engaging in weekly meetings with teams to expand on cybersecurity topics. <br/>
+                    Undertook challenges and engaged in topics of Red Hat and ‘Hack the box.’  <br/>
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="panel" id="Skills">
-        <p class="rcorners"> Skills</p>
-    </div>
-    <div class="panel" id="Intrest">
-        <p class="rcorners"> Intrest</p>
-    </div>
+    <div class="panel paragraphPanel" id="Skills">
+        <h1 class="subHeaders"> Skills</h1>
+    </div>  
 </div>
 </body>
 

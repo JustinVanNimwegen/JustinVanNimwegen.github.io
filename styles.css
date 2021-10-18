@@ -1,36 +1,16 @@
 html, body {
 	margin: 0; 
 	padding: 0;
-	font-family: Georgia;
+	font-family: 'Helvetica';
     background-color: #f2f3f4;
 	scroll-behavior: smooth;
 }
-/* Header Tabs */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #500000;
-  }
-  
-li {
-    float: right;
-  }
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 17px;
-    text-decoration: none;
-  }
-  
-li a:hover {
-    background-color: #500000;
-  }
-
 /* Structual Elements */ 
+.navigation {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+ }
 .content {
     /*background-color: #faf0e6;*/
     position: relative;
@@ -38,16 +18,93 @@ li a:hover {
     height: 100%;
     color: black;
 }
-
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
 .panel {
     margin: auto;
-    margin-top: 20px;
+    padding-bottom: 20px;
 }
 .rcorners {
-    margin: auto;
-    border-radius: 15px;
+    background-color: white;
+    border:3px solid #500000;
+    border-radius: 5px;
+    color: #500000;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px;
+}
+
+.paragraphPanel {
+    border-radius: 6px;
     background: white;
-    padding: 20px; 
-    width: 85%;
-    height: 150px; 
-} 
+    padding: 20px;
+    padding-top: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Content Body */
+.profilePicture{
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+.heading{
+    color: #500000;
+    text-align: center;
+    margin: 0px;
+    font-size: 4.5em;
+
+}
+.subHeaders {
+    color: #500000;
+    font-size: 1.8em;
+    text-align: center;
+}
+.paragraphText {
+    margin: 0px;
+    display: inline-block;
+    text-align: left;
+    /*max-width: 600px;*/
+    /*padding: 0px;*/
+    font-size: 1.2em;
+}
+.coursework{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.activity {
+    padding-top: 40px;
+    text-align: center;
+    /*max-width: 300px;*/
+    /*margin: 0px;*/
+}
+.activityTitle {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 205px;
+    padding-bottom: 10px;
+}
+.activityTitle h3, p {
+    margin: 2px;
+}
+.activityDescription {
+   display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    max-width: 700px;
+    padding-left: 40px;
+}
